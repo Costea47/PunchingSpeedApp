@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Text, View, Button, StyleSheet, Platform } from "react-native";
+import { Text, View, Button, StyleSheet, Image, Platform } from "react-native";
 import { Accelerometer } from "expo-sensors";
 
 const MIKE_TYSON_PUNCH_SPEED = 5.12; // Mike Tyson's punch speed in m/s (adjust as needed)
@@ -83,6 +83,11 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.container}>
+      {/* Add logo */}
+      <Image
+        source={require("../../assets/images/logo.png")}
+        style={styles.logo}
+      />
       <Text style={styles.text}>{instructionText}</Text>
       <Text style={styles.text}>
         {resultMessage || `Max Punch Speed: ${maxSpeed.toFixed(2)} m/s`}
@@ -106,5 +111,10 @@ const styles = StyleSheet.create({
     fontSize: 20,
     marginBottom: 10,
     textAlign: "center",
+  },
+  logo: {
+    width: 300,
+    height: 300,
+    marginBottom: 20,
   },
 });
