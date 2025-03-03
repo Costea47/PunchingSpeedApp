@@ -1,8 +1,8 @@
-# Punch Speed App - Shadow Boxing
+# Punching Speed App - Shadow Boxing
 
 ## Overview
 
-"Punch Speed App" is an interactive mobile application that measures the speed of your punch using the phone's accelerometer. By tracking your punch speed, the app provides users with feedback on their performance, comparing it to the punching power of legendary boxers like Mike Tyson. This app offers an engaging and fun way to track and improve your punch speed while offering a lighthearted comparison to world-class athletes.
+"Punching Speed App" is an interactive mobile application that measures the speed of your punch using the phone's accelerometer. By tracking your punch speed, the app provides users with feedback on their performance, comparing it to the punching power of legendary boxers like Mike Tyson. This app offers an engaging and fun way to track and improve your punch speed while offering a lighthearted comparison to world-class athletes.
 
 ## Portfolio Project
 
@@ -32,7 +32,7 @@ To run the app on your phone, follow these steps:
 
    - Clone the repository from GitHub to your local machine using:
      ```bash
-     git clone https://github.com/yourusername/punch-speed-app.git
+     git clone git@github.com:Costea47/PunchingSpeedApp.git
      ```
 
 2. **Install dependencies**:
